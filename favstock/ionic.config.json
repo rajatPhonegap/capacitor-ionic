@@ -1,0 +1,7 @@
+{
+  "name": "favstock",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
