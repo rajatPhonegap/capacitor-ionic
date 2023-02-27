@@ -6,6 +6,8 @@ import { Tab2Page } from './tab2.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab2PageRoutingModule } from './tab2-routing.module';
+import { InventoryFilterComponent } from './inventory-filter/inventory-filter.component';
+import { MainHeaderComponent } from '../main-header/main-header.component';
 
 @NgModule({
   imports: [
@@ -15,6 +17,6 @@ import { Tab2PageRoutingModule } from './tab2-routing.module';
     ExploreContainerComponentModule,
     Tab2PageRoutingModule
   ],
-  declarations: [Tab2Page]
+  declarations: [Tab2Page,InventoryFilterComponent]
 })
 export class Tab2PageModule {}

@@ -1,0 +1,76 @@
+
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>TOTAL PLAYERS IN EACH TEAM</ion-card-subtitle>
+      <ion-card-title style="font-size: 70px;color: purple;padding-left: 65px;" color="warning" text-center>{{totalPlayers}}</ion-card-title>
+      <ion-card-subtitle>TOSS WON BY TEAM</ion-card-subtitle>
+      <ion-card-title style="font-size: 70px;color: rgb(0, 128, 32);padding-left: 65px;" color="warning" text-center>{{data?.tossWonBy[0]}}</ion-card-title>
+      <ion-card-subtitle>Match of - {{today |date}}</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <ion-accordion-group>
+    <ion-accordion value="first" *ngIf="aTeamplayersArr.length>0">
+      <ion-item slot="header" color="primary">
+        <ion-label>TEAM A - {{data?.tossWonBy[0]=='A'?'Batting':'Fielding'}}</ion-label>
+      </ion-item>
+      <div class="" slot="content" >
+        <ion-card>
+          <ion-card-header>
+            <!-- <ion-card-title>TEAM A</ion-card-title> -->
+            <ion-card-subtitle>Match of - {{today |date}}</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <ion-list >
+              <ion-item lines="full"*ngFor="let player of aTeamplayersArr">
+                <ion-avatar slot="start" style="width: 65px;
+                height: 65px;">
+                  <img src="https://ionicframework.com/docs/demos/api/list/avatar-poe.png">
+                </ion-avatar>
+                <ion-label>
+                  <h2>{{player?.name}}</h2>
+                  <h3>{{player?.role}} - {{player?.rating}}</h3>
+                  <p>{{player?.batingStyle}}</p>
+                </ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second" *ngIf="bTeamplayersArr.length>0">
+      <ion-item slot="header" color="warning">
+        <ion-label>TEAM B - {{data?.tossWonBy[0]=='B'?'Batting':'Fielding '}}</ion-label>
+      </ion-item>
+      <div class="" slot="content" *ngIf="bTeamplayersArr.length>0">
+        <ion-card>
+          <ion-card-header>
+            <!-- <ion-card-title>TEAM B</ion-card-title> -->
+            <ion-card-subtitle>Match of - {{today |date}}</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <ion-list lines="full">
+              <ion-item *ngFor="let player of bTeamplayersArr">
+                <ion-avatar slot="start" style="width: 65px;
+                height: 65px;">
+                  <img src="https://ionicframework.com/docs/demos/api/list/avatar-poe.png">
+                </ion-avatar>
+                <ion-label>
+                  <h2>{{player?.name}}</h2>
+                  <h3>{{player?.role}} - {{player?.rating}}</h3>
+                  <p>{{player?.batingStyle}}</p>
+                </ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group >
+  
+  <ion-button expand="block" style="margin-top: 100px;" (click)="onReset()">
+    Hom</ion-button>
+</ion-content>
