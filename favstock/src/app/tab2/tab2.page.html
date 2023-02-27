@@ -1,12 +1,13 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<!-- <app-main-header headerName="Search Products" iconName="notifications-outline"></app-main-header> -->
 <ion-content [fullscreen]="true">
+  <ion-button color="light" (click)="sortBy()">
+    Sort
+    <ion-icon slot="end" name="filter-outline"></ion-icon>
+  </ion-button>
+  <ion-button color="light" (click)="filterBy()">
+    Filter
+    <ion-icon slot="end" name="funnel-outline"></ion-icon>
+  </ion-button>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 2</ion-title>

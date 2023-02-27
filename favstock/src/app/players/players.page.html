@@ -1,0 +1,20 @@
+
+<app-main-header headerName="APL Players" iconName="notifications-outline"></app-main-header>
+
+<ion-content>
+  
+  <ion-item *ngFor="let player of playersArr">
+    <ion-checkbox slot="start" (click)="onSelectPlayer($event,player)" ></ion-checkbox>
+    <ion-avatar slot="start" style="width: 65px;
+    height: 65px;">
+      <img src="https://ionicframework.com/docs/demos/api/list/avatar-poe.png">
+    </ion-avatar>
+    <ion-label (click)="openPlayerDetails()">
+      <h1>{{player?.name}}</h1>
+      <h3>{{player?.role!=''?player?.role:'NA'}} - {{player?.rating}}</h3>
+      <!-- <p>{{player?.batingStyle}}</p> -->
+    </ion-label>
+  </ion-item>
+  <ion-button expand="block" (click)="onPart()">Part Now</ion-button>
+  <ion-button expand="block" color="warning" (click)="onReset()">Reset</ion-button>
+</ion-content>
