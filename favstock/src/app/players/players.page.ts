@@ -20,7 +20,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image: '../../assets/img/asim.jpg',
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/rajen.jpg',
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/rajat.jpg',
     },
     {
       id: 4,
@@ -50,7 +50,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/kartick.jpg',
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 6,
@@ -70,7 +70,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/khokon.jpg',
     },
     {
       id: 7,
@@ -80,7 +80,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/bisu.jpg',
     },
     {
       id: 8,
@@ -90,7 +90,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/atul.jpg',
     },
     {
       id: 9,
@@ -100,7 +100,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/tapas.jpg',
     },
     {
       id: 10,
@@ -110,7 +110,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/md.jpg',
     },
     {
       id: 11,
@@ -120,7 +120,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/vola.jpg',
     },
     {
       id: 12,
@@ -130,7 +130,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 13,
@@ -140,7 +140,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/saheb.jpg',
     },
     {
       id: 14,
@@ -150,7 +150,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 15,
@@ -160,7 +160,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 16,
@@ -170,7 +170,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/suman.jpg',
     },
     {
       id: 17,
@@ -180,7 +180,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 18,
@@ -190,7 +190,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 19,
@@ -200,7 +200,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/ranju.jpg',
     },
     {
       id: 20,
@@ -210,7 +210,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 21,
@@ -220,7 +220,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 22,
@@ -230,7 +230,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 23,
@@ -240,7 +240,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'',
     },
     {
       id: 24,
@@ -250,7 +250,7 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'../../assets/img/sujoy.jpg',
     },
     {
       id: 25,
@@ -260,7 +260,37 @@ export class PlayersPage implements OnInit {
       bowlingStyle: 'Right Arm - (Pace)',
       address: '',
       rating: '8.5',
-      image: '',
+      image:'https://pps.whatsapp.net/v/t61.24694-24/319969070_1584577145390081_5489511254724017084_n.jpg?ccb=11-4&oh=01_AdQkKxvJhpozXwcFayOhCR_G4W_qJNXtK0ABTmF06Dds6A&oe=640AB221',
+    },
+    {
+      id: 26,
+      name: 'Bijoy Mandal',
+      role: 'Bowler',
+      batingStyle: 'Right Handed',
+      bowlingStyle: 'Right Arm - (Pace)',
+      address: '',
+      rating: '8.5',
+      image:'',
+    },
+    {
+      id: 27,
+      name: 'Chandan',
+      role: 'Batsman',
+      batingStyle: 'Right Handed',
+      bowlingStyle: 'Right Arm - (Pace)',
+      address: '',
+      rating: '8.5',
+      image:'',
+    },
+    {
+      id: 27,
+      name: 'X - Man',
+      role: 'Batsman-A',
+      batingStyle: 'Right Handed',
+      bowlingStyle: 'Right Arm - (Pace)',
+      address: '',
+      rating: '8.5',
+      image:'',
     },
   ];
   todaysPlayer: any = [];
@@ -293,69 +323,114 @@ export class PlayersPage implements OnInit {
       // alert('Please select players');
       this.presentToast('Please select players');
     } else {
-      if (this.isOdd(this.todaysPlayer.length)) {
-        // alert('Please select one more player')
-        this.presentToast('Please select one more player');
-      } else {
+      if (!this.isOdd(this.todaysPlayer.length)) {
         this.partNow(this.todaysPlayer);
+      } else {
+        this.presentToast('Please select one more player');
       }
     }
   }
   openPlayerDetails() {}
   partNow(players: any) {
+    console.log('Todays player',this.todaysPlayer);
+    
     // alert('Done');
     this.showLoading();
-    let totalNoOfBatter = this.checkBatterInTeam(this.todaysPlayer);
-    let totalNoOfAllrounder = this.checkAllrounderInTeam(this.todaysPlayer);
     let teamA = [];
     let teamB = [];
-    let randomPlayers = [];
-    randomPlayers = this.shuffleArray(players);
+    // let randomPlayers = [];
+    this.todaysPlayer = this.shuffleArray(players);
+    let foundBatsman;
+    let resAllPlayers;
+    foundBatsman = this.todaysPlayer.filter((element:any) => element.role === 'Batsman-A');
+    resAllPlayers = this.todaysPlayer.filter((element:any) => element.role !== 'Batsman-A');
+    if(this.isOdd(foundBatsman.length)){
+      alert('Found Batter'+foundBatsman.length);
+      foundBatsman.push(resAllPlayers[0]);;
+    }
+    console.log('foundBatsman',foundBatsman);
+    let teamAbatter=foundBatsman.splice(0, foundBatsman);
     // this.dividePlayers(randomPlayers);
-    let numberOfPlayers = randomPlayers.length / 2;
-    teamA = randomPlayers.splice(0, numberOfPlayers);
-    teamB = randomPlayers;
-    // Check Top Batsman
-    let noOfBatterInAteam = this.checkBatterInTeam(teamA);
-    let noOfBatterInBteam = this.checkBatterInTeam(teamA);
-    // Check Top Allrounders
-    let noOfAllrounderInAteam = this.checkAllrounderInTeam(teamB);
-    let noOfAllrounderInBteam = this.checkAllrounderInTeam(teamB);
-    let avgbat = Math.round(totalNoOfBatter / 2);
-    let avgallround = Math.round(totalNoOfAllrounder / 2);
-    if (
-      noOfBatterInAteam > 2 ||
-      noOfAllrounderInAteam > 1 ||
-      noOfBatterInBteam > avgbat ||
-      noOfAllrounderInBteam > 1
-    ) {
-      this.presentToast('Too strong Team');
-      teamA = [];
-      teamB = [];
-      randomPlayers = [];
-      // console.log('====================================');
-      // console.log('totalNoOfAllrounder', totalNoOfAllrounder);
-      // console.log('team a', noOfAllrounderInAteam);
-      // console.log('totalNoOfBatter', totalNoOfBatter);
-      // console.log('team a', noOfBatterInAteam);
-      // console.log('====================================');
-      this.partNow(this.todaysPlayer);
-    } else {
-      let tossWon: any = ['A', 'B'];
+    let tossWon: any = ['A', 'B'];
       let teamData = {
-        aTeam: teamA,
-        bTeam: teamB,
-        totalPlayers: players.length,
+        aTeam: '',
+        bTeam: '',  
+        totalPlayers: this.todaysPlayer.length/2,
         tossWonBy: this.shuffleArray(tossWon),
       };
-
       this.presentModal(teamData);
-    }
+    // this.checkABteamAndSwap(teamA,teamB);
+    
+    // if (
+    //   noOfBatterInAteam > 2 ||
+    //   noOfAllrounderInAteam > 1 ||
+    //   noOfBatterInBteam > avgbat ||
+    //   noOfAllrounderInBteam > 1
+    // ) {
+    //   this.presentToast('Too strong Team');
+    //   teamA = [];
+    //   teamB = [];
+    //   randomPlayers = [];
+    //   this.partNow(this.todaysPlayer);
+    // } else {
+      
+    // }
+    // Check Team and shuffel
   }
   isOdd(n: number) {
     return Math.abs(n % 2) == 1;
   }
-
+  checkABteamAndSwap(a:any,b:any){
+    let aTeam=a;
+    let bTeam=b;
+    let strongBat:any =[];
+    let strongBall:any =[];
+    aTeam.forEach((element:any) => {
+      if(element.id===11 || element.id===13 || element.id===1 || element.id===19 ){
+        strongBat.push(element);
+      }
+    });
+    bTeam.forEach((element:any) => {
+      if(element.id===11 || element.id===13 || element.id===1 || element.id===19){
+        strongBat.push(element);
+      }
+    });
+    aTeam.forEach((element:any) => {
+      if(element.id===5 || element.id===4 ){
+        strongBat.push(element);
+        
+        
+      }
+    });
+    bTeam.forEach((element:any) => {
+      if(element.id===5 || element.id===4 ){
+        strongBall.push(element);
+        
+      }
+    });
+    if(strongBall.length>1 || strongBat.length> 2){
+      // alert('Part again');
+      this.presentToast('One Team Is  Stonger! Do it again');
+      console.log('Strong bowl');
+      console.log(strongBall);
+      console.log('bowl');
+      console.log('Strong Bat');
+      console.log(strongBat);
+      console.log('strongBat');
+      
+      // this.shuffleArray(this.todaysPlayer);
+      // this.partNow(this.todaysPlayer);
+    }else{
+      let tossWon: any = ['A', 'B'];
+      let teamData = {
+        aTeam: aTeam,
+        bTeam: bTeam,  
+        totalPlayers: this.todaysPlayer.length,
+        tossWonBy: this.shuffleArray(tossWon),
+      };
+      this.presentModal(teamData);
+    }
+  }
   shuffleArray(array: []) {
     var m = array.length,
       t,

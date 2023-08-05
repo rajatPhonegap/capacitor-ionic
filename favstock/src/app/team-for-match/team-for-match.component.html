@@ -27,7 +27,7 @@
               <ion-item lines="full"*ngFor="let player of aTeamplayersArr">
                 <ion-avatar slot="start" style="width: 65px;
                 height: 65px;">
-                  <img src="https://ionicframework.com/docs/demos/api/list/avatar-poe.png">
+                  <img [src]="player?.image?player?.image:'../../assets/img/avatar.png'">
                 </ion-avatar>
                 <ion-label>
                   <h2>{{player?.name}}</h2>
@@ -42,7 +42,7 @@
     </ion-accordion>
     <ion-accordion value="second" *ngIf="bTeamplayersArr.length>0">
       <ion-item slot="header" color="warning">
-        <ion-label>TEAM B - {{data?.tossWonBy[0]=='B'?'Batting':'Fielding '}}</ion-label>
+        <ion-label>TEAM B - {{data?.tossWonBy[0]==='B'?'Batting':'Fielding '}}</ion-label>
       </ion-item>
       <div class="" slot="content" *ngIf="bTeamplayersArr.length>0">
         <ion-card>
@@ -56,7 +56,7 @@
               <ion-item *ngFor="let player of bTeamplayersArr">
                 <ion-avatar slot="start" style="width: 65px;
                 height: 65px;">
-                  <img src="https://ionicframework.com/docs/demos/api/list/avatar-poe.png">
+                  <img [src]="player?.image?player?.image:'../../assets/img/avatar.png'">
                 </ion-avatar>
                 <ion-label>
                   <h2>{{player?.name}}</h2>
@@ -70,7 +70,10 @@
       </div>
     </ion-accordion>
   </ion-accordion-group >
+  <ion-footer>
+    
+    <ion-button expand="block"  (click)="onReset()">
+      Hom</ion-button>
+  </ion-footer>
   
-  <ion-button expand="block" style="margin-top: 100px;" (click)="onReset()">
-    Hom</ion-button>
 </ion-content>
